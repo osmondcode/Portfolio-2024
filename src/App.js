@@ -9,7 +9,7 @@ import { MySkill } from './components/Assets/MySkill';
 import MyWork from './components/Assets/MyWork';
 import ContactMe from './components/Assets/ContactMe';
 import Footer from './components/Assets/Footer';
-import PreLoader from './components/Assets/preLoader';
+// import PreLoader from './components/Assets/preLoader';
 import { useEffect,  } from 'react';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <PreLoader/>
+      {/* <PreLoader/> */}
 
       <div className="w-full min-h-screen flex flex-col items-center justify-center bg-[#2B0945] text-white" >
         <Header/>

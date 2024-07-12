@@ -23,7 +23,7 @@ const ContactMe = () => {
                     <FaLocationDot className='text-[23px]'/>
                 </p>
                 <span data-aos='fade-down'>
-                    <button className='text-white font-mono font-semibold hover:text-[#f8c258] duration-500'>Enugu - Nigeria</button>
+                    <button className='text-white font-mono font-semibold hover:text-[#f8c258] duration-500'>Lagos - Nigeria</button>
                 </span>
                     
             </span>

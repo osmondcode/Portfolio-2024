@@ -4,10 +4,11 @@ import html from '../images/HTML5_without_wordmark_color_Logo_PNG_Vector__SVG__F
 import css from '../images/CSS_3_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png'
 import javascript from '../images/Javascript_Logo__JS___01__-_PNG_Logo_Vector_Brand_Downloads__SVG__EPS_-removebg-preview.png'
 import redux from '../images/Redux_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png'
-import git from '../images/GitHub_Logo_PNG_Vector__AI__Free_Download-removebg-preview.png'
+import git from '../images/images-removebg-preview.png'
 import tailwind from '../images/Tailwind_Css_Mark_-_Css_Framework_Programmer_Coder_Sticker_by_farhanhafeez-removebg-preview.png'
-import api from '../images/360_F_322956978_9ESBVewTYdhSu9G6qf2JazX9tUsdh53g-removebg-preview.png'
+import api from '../images/images__1_-removebg-preview.png'
 import leftImg from '../images/3D_Man_chatting_remotely_with_female_colleague_illustration-removebg-preview.png'
+import bootstrap from '../images/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67-removebg-preview.png'
 
 export const MySkill = () => {
   return (
@@ -80,7 +81,7 @@ export const MySkill = () => {
 
                         <span data-aos='fade-down'>
                             <div className='w-[45px] h-[50px] flex items-center justify-center rounded-md bg-[#2B0945]  border-b-[3px] border-[#f8c258] p-1' >
-                                <img src={tailwind}  alt='Bootstrap' className='w-[30px] h-[30px]'/>
+                                <img src={bootstrap}  alt='Bootstrap' className='w-[30px] h-[30px]'/>
                             </div>
                         </span>
                     </span>

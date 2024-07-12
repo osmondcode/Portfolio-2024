@@ -19,10 +19,10 @@ export const Home = () => {
             </h1>
             <span className='flex items-start justify-center gap-[20px] mt-[20px]'>
                 <span  data-aos='fade-up'>
-                    <button className='sm:py-2 py-1.5 sm:px-4 px-3 border-[1px] border-[#F8C258] rounded-[50px] text-[#2B0945] bg-[#F8C258] font-semibold 2sm:text-[15px] text-[13px] hover:text-[#F8C258] hover:bg-[#2B0945] duration-500 flex items-center gap-[5px]'>
+                    <a href='./My Resume.pdf' download='Ugbodaga-Osmond_Resume' className='sm:py-2 py-1.5 sm:px-4 px-3 border-[1px] border-[#F8C258] rounded-[50px] text-[#2B0945] bg-[#F8C258] font-semibold 2sm:text-[15px] text-[13px] hover:text-[#F8C258] hover:bg-[#2B0945] duration-500 flex items-center gap-[5px]'>
                         Download CV
                         <FaFileDownload/>
-                    </button>
+                    </a>
                 </span>
                 <span data-aos='fade-up'>
                     <button className='sm:py-2 py-1.5 sm:px-4 px-3 border-[1px] border-[#F8C258] rounded-[50px] text-[#F8C258] font-semibold flex items-center justify-center gap-[5px] 2sm:text-[15px] text-[13px] hover:text-[#2B0945] hover:bg-[#F8C258] duration-500'>

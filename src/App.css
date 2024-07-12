@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.orangeUp{
+  animation: upDown infinite 3s;
+}
+@keyframes upDown{
+  0%{
+    transform: translateY(15px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(15px);
+  }
+}
+.whiteUp{
+  animation: wupDown infinite 3s;
+}
+@keyframes wupDown{
+  0%{
+    transform: translateY(-15px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-15px);
+  }
+}
+.borderUp{
+  animation: goingUp infinite 3s;
+}
+@keyframes goingUp{
+  0%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+.borderDown{
+  animation: goingDown infinite 3s;
+}
+@keyframes goingDown{
+  0%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent; /* Adjust size as needed */
+  border-right: 30px solid transparent; /* Adjust size as needed */
+  border-bottom: 45px solid #f8c358; /* Adjust size and color as needed */
+}
+.angleOne{
+  transform: rotate(-115deg);
+}
+.angleTwo{
+  transform: rotate(65deg);
+}
+.BBbg{
+  background: url(./components/images/Basketball.com.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.CSbg{
+  background: url(./components/images/Cleaning.com.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.FAbg{
+  background: url(./components/images/FoodAI.com.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.PKbg{
+  background: url(./components/images/Pickie.com.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.SLbg{
+  background: url(./components/images/Sole.com.png);
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
